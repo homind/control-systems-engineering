@@ -83,11 +83,11 @@ $\begin{vmatrix}1&2\\3&4\\ \end{vmatrix}$
 
 $\begin{Vmatrix}1&2\\3&4\\ \end{Vmatrix}$
 
-$\begin{bmatrix}
+$$\begin{bmatrix}
 0 & \cdots & 0 \\
 \vdots & \ddots & \vdots \\
 0 & \cdots & 0
-\end{bmatrix}$
+\end{bmatrix}$$
 
 
 
