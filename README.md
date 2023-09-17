@@ -84,7 +84,8 @@ $\begin{vmatrix}1&2\\3&4\\ \end{vmatrix}$
 $\begin{Vmatrix}1&2\\3&4\\ \end{Vmatrix}$
 
 $$\begin{bmatrix}
-1&2\\3&4
+1&2 \\
+3&4\\
 \end{bmatrix}$$
 
 
