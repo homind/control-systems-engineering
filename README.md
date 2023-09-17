@@ -80,9 +80,6 @@ $\begin{Vmatrix}1&2\\3&4\\ \end{Vmatrix}$
 $\displaystyle\lim_{s\rightarrow\infty}{s^2}$
 $\displaystyle\sum_{i=0}^{\infty}{(y_i-t_i)^2}$
 
-문장내 $\frac{1+s}{s(s+2)}$ 삽입
-
-$$\frac{1+s}{s(s+2)}$$
 
 ---
 ### :hash: 수식 & 특수식
@@ -92,6 +89,10 @@ f(x)&=ax^2+bx+c\\
 g(x)&=Ax^4
 \end{aligned}
 $$
+
+문장내 $\frac{1+s}{s(s+2)}$ 삽입
+
+$$\frac{1+s}{s(s+2)}$$
 
 ---
 ### :hash: 이미지, 체크박스
