@@ -1,3 +1,8 @@
+![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90)
+
+
+
+
 #  제어공학1 - 강의요약 :computer: 
 ## :one: Google Colab & Markdown
   ### :books: Google colab이란?  
