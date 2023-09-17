@@ -96,7 +96,7 @@ $$\begin{vmatrix}
 3&4\\ 
 \end{vmatrix}$$
 
-$$\begin{Vmatrix
+$$\begin{Vmatrix}
 1&2\\
 3&4\\ 
 \end{Vmatrix}$$
