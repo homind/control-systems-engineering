@@ -72,10 +72,15 @@ print(a)
 ```
 ### :hash: 행렬
 $\begin{matrix}1&2\\3&4\\ \end{matrix}$
+
 $\begin{pmatrix}1&2\\3&4\\ \end{pmatrix}$
+
 $\begin{bmatrix}1&2\\3&4\\ \end{bmatrix}$
+
 $\begin{Bmatrix}1&2\\3&4\\ \end{Bmatrix}$
+
 $\begin{vmatrix}1&2\\3&4\\ \end{vmatrix}$
+
 $\begin{Vmatrix}1&2\\3&4\\ \end{Vmatrix}$
 
 
