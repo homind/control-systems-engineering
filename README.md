@@ -31,7 +31,7 @@
 ](https://drive.google.com/file/d/1yG8Vcxmp6BtLY239WAHK_fX7ZfQio8-J/view?usp=sharing)    
     **코드블럭은 ```다음  c,  python등 언어를 입력하면 해당언어의 코드로 변경한다.**
 
---------
+
 ## :two: Markdown 실습(2023-09-14)
 ### :hash: 타이틀
 ###### 굵게6
