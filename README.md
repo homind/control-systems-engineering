@@ -77,8 +77,7 @@ $\begin{Bmatrix}1&2\\3&4\\ \end{Bmatrix}$
 $\begin{vmatrix}1&2\\3&4\\ \end{vmatrix}$
 $\begin{Vmatrix}1&2\\3&4\\ \end{Vmatrix}$
 
-$\displaystyle\lim_{s\rightarrow\infty}{s^2}$
-$\displaystyle\sum_{i=0}^{\infty}{(y_i-t_i)^2}$
+
 
 
 ---
@@ -93,6 +92,9 @@ $$
 문장내 $\frac{1+s}{s(s+2)}$ 삽입
 
 $$\frac{1+s}{s(s+2)}$$
+
+$\displaystyle\lim_{s\rightarrow\infty}{s^2}$
+$\displaystyle\sum_{i=0}^{\infty}{(y_i-t_i)^2}$
 
 ---
 ### :hash: 이미지, 체크박스
