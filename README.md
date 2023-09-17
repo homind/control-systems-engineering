@@ -10,7 +10,7 @@
    4.이후 **+코드**를 통해 자신이 원하는 코드를 입력할 수 있고 **+텍스트**를 통해 자신이 원하는 문서 작업을 실행할 수 있다.  
    
 
- ### -Google Colab의 Notebook 단축키 및 Markdown사용법
+ ### :books: Google Colab의 Notebook 단축키 및 Markdown사용법
   >#### Notebook단축키 :keyboard: 
 - Notebook의 단축키는 **Ctrl + M H**를 통해 여러 기본 단축키를 알 수 있으며 사용자의 편의대로 단축키를 설정할 수 있다. 아래의 사진은 **Ctrl + M H**을 통한 화면이다.  
 ![단축키 캡처](https://user-images.githubusercontent.com/101074052/156962736-fb4e6c7e-5c2d-4436-bbda-7157f9aeaed9.jpg)
