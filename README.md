@@ -11,12 +11,12 @@
    
 
  ### :books: Google Colab의 Notebook 단축키 및 Markdown사용법
-  >#### Notebook단축키 :keyboard: 
+  >#### :keyboard:  Notebook단축키 
 - Notebook의 단축키는 **Ctrl + M H**를 통해 여러 기본 단축키를 알 수 있으며 사용자의 편의대로 단축키를 설정할 수 있다. 아래의 사진은 **Ctrl + M H**을 통한 화면이다.  
 ![단축키 캡처](https://user-images.githubusercontent.com/101074052/156962736-fb4e6c7e-5c2d-4436-bbda-7157f9aeaed9.jpg)
 
       
- > #### Markdown 사용법  	:computer_mouse:
+ > #### :computer_mouse: Markdown 사용법  	
 - Google Colab의 Notebook은 텍스트 편집할때 사용하는  Markdown이라는 문법을 이용해 문서와 소스코드를 한 문서에 배치할 수 있다. Markdown은 **확장자명이 md**이며 서식 편집언어를 이용해 Coding으로 문서를 작성한다. Markdown을 이용해 _타이틀, 강조, 줄바꿈, Code Block, 이미지, 표, 수식_ 등 여러 문법을 Notebook에 나타낼 수 있다.  
 - **Markdown 주요 문법**을 이미지 링크로 나타내줄테니 확인해 보자.
 >> - 링크 [![링크 ](https://user-images.githubusercontent.com/101074052/156950974-7aec9cf2-3ac0-473f-b108-fc25bb3472af.jpg)
