@@ -1,5 +1,5 @@
 #  제어공학1 - 강의요약 :computer:
-## :one: Google Colab  
+## :one: Google Colab & Markdown
   ### :books: Google colab이란?  
   구글에서 제공하는 **머신러닝 클라우드 플랫폼**으로, 웹 브라우저 내에서 다양한 머신러닝 기법을 프로그래밍하고 그 결과까지 확인해볼 수 있다. 특히 GPU를 지원하여 제한된 범위 내에서 개인용 PC보다 빠른 성능을 보여주기도 한다.  
   ### :books:  Google Colab 기본설정  
@@ -30,6 +30,11 @@
 >> - 코드블럭 [![코드블럭](https://user-images.githubusercontent.com/101074052/156951483-5bcbaf94-e369-4d39-a6a8-20e9f23a6b73.jpg)
 ](https://drive.google.com/file/d/1yG8Vcxmp6BtLY239WAHK_fX7ZfQio8-J/view?usp=sharing)    
     **코드블럭은 ```다음  c,  python등 언어를 입력하면 해당언어의 코드로 변경한다.**
+
+--------
+## :two: Markdown 실습(2023-09-14)
+
+
 
 
 
