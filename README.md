@@ -128,7 +128,7 @@ $\displaystyle\sum_{i=0}^{\infty}{(y_i-t_i)^2}$
 ---
 ### :hash: 이미지, 체크박스
 
-![오리]([이미지주소](https://www.google.com/imgres?imgurl=https%3A%2F%2Fitem.kakaocdn.net%2Fdo%2F43319a30d6de449e135d3d14898a3d0e8f324a0b9c48f77dbce3a43bd11ce785&tbnid=VbddkjKfahNRqM&vet=12ahUKEwiN-5HRgLGBAxXU7mEKHUc2DdkQMygFegUIARCAAQ..i&imgrefurl=https%3A%2F%2Fe.kakao.com%2Ft%2Fthe-duck-says-quack-quack&docid=9cG1HTDHw_Cy6M&w=210&h=210&q=%EC%98%A4%EB%A6%AC&ved=2ahUKEwiN-5HRgLGBAxXU7mEKHUc2DdkQMygFegUIARCAAQ))
+![오리](https://www.google.com/imgres?imgurl=https%3A%2F%2Fitem.kakaocdn.net%2Fdo%2F43319a30d6de449e135d3d14898a3d0e8f324a0b9c48f77dbce3a43bd11ce785&tbnid=VbddkjKfahNRqM&vet=12ahUKEwiN-5HRgLGBAxXU7mEKHUc2DdkQMygFegUIARCAAQ..i&imgrefurl=https%3A%2F%2Fe.kakao.com%2Ft%2Fthe-duck-says-quack-quack&docid=9cG1HTDHw_Cy6M&w=210&h=210&q=%EC%98%A4%EB%A6%AC&ved=2ahUKEwiN-5HRgLGBAxXU7mEKHUc2DdkQMygFegUIARCAAQ)
 
 
 * [ ] 비어있는 체크박스
