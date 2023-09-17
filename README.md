@@ -72,34 +72,34 @@ print(a)
 ```
 ### :hash: 행렬
 $$\begin{matrix} 
-1&2\\3&4
-\\ 
+1&2\\
+3&4\\ 
 \end{matrix}$$
 
-$\begin{pmatrix}
+$$\begin{pmatrix}
 1&2\\
 3&4\\ 
-\end{pmatrix}$
+\end{pmatrix}$$
 
-$\begin{bmatrix}
+$$\begin{bmatrix}
 1&2\\
 3&4\\ 
-\end{bmatrix}$
+\end{bmatrix}$$
 
-$\begin{Bmatrix}
+$$\begin{Bmatrix}
 1&2\\
 3&4\\ 
-\end{Bmatrix}$
+\end{Bmatrix}$$
 
-$\begin{vmatrix}
+$$\begin{vmatrix}
 1&2\\
 3&4\\ 
-\end{vmatrix}$
+\end{vmatrix}$$
 
-$\begin{Vmatrix
+$$\begin{Vmatrix
 1&2\\
 3&4\\ 
-\end{Vmatrix}$
+\end{Vmatrix}$$
 
 
 
