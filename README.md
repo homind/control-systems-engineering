@@ -2,7 +2,7 @@
 ## :one: Google Colab  
   ### :books: Google colab이란?  
   구글에서 제공하는 **머신러닝 클라우드 플랫폼**으로, 웹 브라우저 내에서 다양한 머신러닝 기법을 프로그래밍하고 그 결과까지 확인해볼 수 있다. 특히 GPU를 지원하여 제한된 범위 내에서 개인용 PC보다 빠른 성능을 보여주기도 한다.  
-  ### - Google Colab 기본설정  
+  ### :books: Google Colab 기본설정  
    1.구글 계정에 로그인한 후 (https://colab.research.google.com) 접속한다.  
    2.위 주소에 접속한 후 `새 노트`를 클릭하여 좌측에 있는 ![파일모양](https://user-images.githubusercontent.com/101074052/156951688-29426a86-17fe-4d7a-8f72-9ba912840206.jpg)
  을 클릭하여 `드라이브 마운트`를 통해 Google Drive와 연결을 한다.  
