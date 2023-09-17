@@ -3,7 +3,7 @@
 
 
 
-#  제어공학1 - 강의요약 :computer: </br>fsdfss
+#  제어공학1 - 강의요약 :computer: 
 ## :one: Google Colab & Markdown
   ### :books: Google colab이란?  
   구글에서 제공하는 **머신러닝 클라우드 플랫폼**으로, 웹 브라우저 내에서 다양한 머신러닝 기법을 프로그래밍하고 그 결과까지 확인해볼 수 있다. 특히 GPU를 지원하여 제한된 범위 내에서 개인용 PC보다 빠른 성능을 보여주기도 한다.  
