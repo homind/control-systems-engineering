@@ -71,7 +71,7 @@ if a>10:
 print(a)
 ```
 ### :hash: 행렬
-$\begin{bmatrix}1&2\\3&4\\ \end{bmatrix}$
+$\begin{matrix}1&2\\3&4\\ \end{matrix}$
 
 $\begin{pmatrix}1&2\\3&4\\ \end{pmatrix}$
 
@@ -82,7 +82,11 @@ $\begin{Bmatrix}1&2\\3&4\\ \end{Bmatrix}$
 $\begin{vmatrix}1&2\\3&4\\ \end{vmatrix}$
 
 $\begin{Vmatrix}1&2\\3&4\\ \end{Vmatrix}$
-
+\begin{bmatrix}
+0 & \cdots & 0 \\
+\vdots & \ddots & \vdots \\
+0 & \cdots & 0
+\end{bmatrix}
 
 
 
