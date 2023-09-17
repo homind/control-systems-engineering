@@ -31,5 +31,6 @@
 ](https://drive.google.com/file/d/1yG8Vcxmp6BtLY239WAHK_fX7ZfQio8-J/view?usp=sharing)    
     **코드블럭은 ```다음  c,  python등 언어를 입력하면 해당언어의 코드로 변경한다.**
 
-##3.마무리  
+## 3.마무리  
 이렇게 Google colab의 Notebook과 Markdowm을 알아보았는데 이러한 플랫폼이 기존 문서작성 플랫폼보다 문법이 쉽고 직관적이며 지원가능한 플랫폼과 프로그램이 많을뿐만 아니라 다양한 형태로 변환이 가능하기 때문에 점점 널리 사용되고 있다.  
+:smile:
