@@ -254,8 +254,8 @@ Y(S)
 \frac{S^2+1}{S^4+3S^2+3}& \frac{S^2+2}{S^4+3S^2+3}
 \end{bmatrix}
 \begin{bmatrix}
-F(S) \\
-0
+0 \\
+U(S)
 \end{bmatrix}
 $$
 
