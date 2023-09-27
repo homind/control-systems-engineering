@@ -36,6 +36,7 @@ Y(S) = \frac{K}{(S+50)} \cdot R(S) 이다. 이때 r(t)는 단위계단입력으�
 즉, Y(S) = \frac{K}{S(S+50)} \to Y(S) = \frac{K}{50} \cdot ( \frac{1}{S} - \frac{1}{(S+50)} )이며, 역라플라스 변환을 통해
 
 y(t) = \frac{K}{50} \cdot ( 1 - exp^(-50t) ) 이다. $t \to \infty$ 일때 , $y(t) \to \ 1$ 이 되기위해서 K = 50이 되어야한다. 
+
 $$
 
 
