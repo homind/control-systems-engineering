@@ -32,10 +32,10 @@ $$
 초기조건이 0 이므로, Laplace로 입,출력 비 표현이 가능하다. $\to\$ $\frac{Y(S)}{R(S)} = \frac{K}{(S+50)}$ 이다.
 
 $$
-Y(S) = \frac{K}{(S+50)} \cdot R(S) \\
-R(S) = \frac{1}{S} \\
-Y(S) = \frac{K}{S(S+50)} \to Y(S) = \frac{K}{50} \cdot ( \frac{1}{S} - \frac{1}{(S+50)} ) \\
-y(t) = \frac{K}{50} \cdot ( 1 - exp^(-50t) ) \\
+Y(S) = \frac{K}{(S+50)} \cdot R(S) 
+R(S) = \frac{1}{S} 
+Y(S) = \frac{K}{S(S+50)} \to Y(S) = \frac{K}{50} \cdot ( \frac{1}{S} - \frac{1}{(S+50)} ) 
+y(t) = \frac{K}{50} \cdot ( 1 - exp^(-50t) ) 
 $t \to \infty$ $y(t) \to \ 1$ K = 50
 $$
 
