@@ -32,7 +32,7 @@ $$
 초기조건이 0 이므로, Laplace로 입,출력 비 표현이 가능하다. $\to\$ $\frac{Y(S)}{R(S)} = \frac{K}{(S+50)}$ 이다.
 
 $$
-Y(S) = $\frac{K}{(S+50)}$ $\codt$ $R(S)$
+Y(S) = \frac{K}{(S+50)} \codt R(S)
 $$
 
 
