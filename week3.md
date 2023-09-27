@@ -13,6 +13,6 @@
 
 이상적인 연상증폭기의 동작조건으로 i<sub>1</sub> = 0, v<sub>2</sub>, v<sub>1</sub>=0이므로, 키르히호프 법칙을 사용하면 다음과 같은 방정식을 얻을 수 있습니다:
 
-V<sub>1</sub>(S) - <sup>V<sub>1</sub></sup>&frasl;<sub>R</sub> + C <sup>d(V<sub>1</sub> - V<sub>2</sub>(S))</sup>&frasl;<sub>dt</sub> = 0
+(V<sub>1</sub>(S) - <sup>V<sub>1</sub></sup>) &frasl; <sub>R</sub> + C * d(V<sub>1</sub> - V<sub>2</sub>(S))</sup>&frasl;<sub>dt</sub> = 0
 
 
