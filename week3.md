@@ -18,3 +18,19 @@ $$
 \frac{(V_1(S) - v_1)}{R} + C\times \frac {d(v_1 - V_2(S))}{dt} = 0 \to \frac{V_1(S)}{R} =  C\times \frac {dV_2(S)}{dt}
 $$
 
+Laplace transform을 통해 전달함수를 구하면
+\[
+\frac{V_1(S)}{R} =  CsV_2(S)
+\]
+
+이를 \(V_2(S)\)에 대해 정리하면:
+
+\[
+V_2(S) = \frac{V_1(S)}{RCs}
+\]
+
+따라서 전달함수 \(G(s)\)는:
+
+\[
+G(s) = \frac{V_2(S)}{V_1(S)} = \frac{1}{RCs}
+\]
