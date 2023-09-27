@@ -12,5 +12,5 @@
 #### 풀이
 
 이상적인 연상증폭기의 동작조건으로  $i_1 =0,v_1,v_2=0$이다.
-키르히호프 법칙을 적용하여  $\frac{(V_1(S) - v_1)}{R} + C\times \frac {d(v_1 - V_2(S))}{dt} = 0$  $\to$ $\frac{V_1(S)}{R} =  C\times \frac {d(V_2(S))}{dt}$
+키르히호프 법칙을 적용하여  $\frac{(V_1(S) - v_1)}{R} + C\times \frac {d(v_1 - V_2(S))}{dt} = 0$  $\to$ $\frac{V_1(S)}{R} =  C\times \frac {dV_2(S)}{dt}$
  
