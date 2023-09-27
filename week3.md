@@ -33,11 +33,21 @@ $$
 
 $$
 Y(S) = \frac{K}{(S+50)} \cdot R(S) 
-R(S) = \frac{1}{S} 
-Y(S) = \frac{K}{S(S+50)} \to Y(S) = \frac{K}{50} \cdot ( \frac{1}{S} - \frac{1}{(S+50)} ) 
-y(t) = \frac{K}{50} \cdot ( 1 - exp^(-50t) ) 
-$t \to \infty$ $y(t) \to \ 1$ K = 50
 $$
+r(t)는 단위계단 입력으로 그 라플라스 변환값은
+$$
+
+R(S) = \frac{1}{S}
+$$
+
+$$
+Y(S) = \frac{K}{S(S+50)} \to Y(S) = \frac{K}{50} \cdot ( \frac{1}{S} - \frac{1}{(S+50)} ) 
+$$
+이고. 역 라플라스 변환을 하면
+y(t) = \frac{K}{50} \cdot ( 1 - exp^(-50t) ) 
+$$
+
+이떄 , $t \to \infty$ $y(t) \to \ 1$이기 위해서 $K =50$이다.
 
 
 
