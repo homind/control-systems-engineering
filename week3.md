@@ -19,6 +19,7 @@ $$
 $$
 
 Laplace transform을 통해 전달함수를 구하면
+$$
 \[
 \frac{V_1(S)}{R} =  CsV_2(S)
 \]
@@ -34,3 +35,4 @@ V_2(S) = \frac{V_1(S)}{RCs}
 \[
 G(s) = \frac{V_2(S)}{V_1(S)} = \frac{1}{RCs}
 \]
+$$
