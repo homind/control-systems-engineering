@@ -199,6 +199,71 @@ $$
 
 ### P2.37
 입력 힘 u(t)를 가지는 두 개의 질량 시스템을 그림 p2.37에 나타냈다. $$m_1=m_2=1$$이고 $$K_1=K_2=1$$일 때, (a)이 시스템으로 표현하는 미분방정식을 구하라. (b) U(S)에서 Y(S)까지의 전달함수를 계산하라.
+#### 풀이
+
+질량이 다른 두 물체와 각각 다른 스프링 상수 $m_1, m_2, k_1, k_2$를 통해 뉴턴의 운동법칙을 적용하면 그 식은 다음과 같다.
+
+$$
+m_{1}\frac{\mathrm{d^2}x(t)}{\mathrm{d} t} + k_1x(t) + k_2(x(t)-y(t)) = 0
+$$
+
+$$
+m_{2}\frac{\mathrm{d^2}y(t)}{\mathrm{d} t} + k_2(y(t)-x(t)) = u(t)
+$$
+
+$m_1=m_2=k_1=k_21$를 적용하하여 미분방정식으로 정리하면 다음과 같다.
+
+$$
+\frac{\mathrm{d^2}x(t)}{\mathrm{d} x} = -2x(t) - y(t)
+$$
+
+
+$$
+\frac{\mathrm{d^2}y(t)}{\mathrm{d} t} = u(t) + x(t) -y(t)
+$$
+
+이 미분방정식을 라플라스 변환을 적용 후, 행렬방정식으로 표현하면
+
+$$
+\begin{bmatrix}
+S^2+2 & -1\\ 
+ -1& S^2+1
+\end{bmatrix}
+\begin{bmatrix}
+X(S) \\
+Y(S)
+\end{bmatrix}
+&equals;
+\begin{bmatrix}
+0 \\
+U(S)
+\end{bmatrix}
+$$
+
+역행렬을 통해 $Y(S)$에 대해 전개하면  $U(S)에서 Y(S)$의 전달함수를 구할 수 있다.
+
+
+$$
+\begin{bmatrix}
+X(S) \\
+Y(S)
+\end{bmatrix}
+&equals;
+\begin{bmatrix}
+\frac{S^2+1}{S^4+3S^2+1} & \frac{1}{S^4+3S^2+1}\\ 
+\frac{S^2+1}{S^4+3S^2+1}& \frac{S^2+2}{S^4+3S^2+1}
+\end{bmatrix}
+\begin{bmatrix}
+F(S) \\
+0
+\end{bmatrix}
+$$
+
+
+따라서 $Y(S) = \frac{s^2+2}{s^4+3s^2+1} \cdot U(S)$ 이므로 전달함수 $ \frac{Y(S)}{U(S)}= \frac{s^2+2}{s^4+3s^2+1}$ 이다.
+
+
+
 
 
 
