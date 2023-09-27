@@ -226,7 +226,7 @@ $$
 
 $$
 \begin{bmatrix}
-S^2+2 & -1\\ 
+S^2+2 & +1\\ 
  -1& S^2+1
 \end{bmatrix}
 \begin{bmatrix}
@@ -250,8 +250,8 @@ Y(S)
 \end{bmatrix}
 &equals;
 \begin{bmatrix}
-\frac{S^2+1}{S^4+3S^2+1} & \frac{1}{S^4+3S^2+1}\\ 
-\frac{S^2+1}{S^4+3S^2+1}& \frac{S^2+2}{S^4+3S^2+1}
+\frac{S^2+1}{S^4+3S^2+3} & \frac{1}{S^4+3S^2+3}\\ 
+\frac{S^2+1}{S^4+3S^2+3}& \frac{S^2+2}{S^4+3S^2+3}
 \end{bmatrix}
 \begin{bmatrix}
 F(S) \\
@@ -260,7 +260,7 @@ F(S) \\
 $$
 
 
-따라서 $Y(S) = \frac{s^2+2}{s^4+3s^2+1} \cdot U(S)$ 이므로 전달함수 $\frac{Y(S)}{U(S)}= \frac{s^2+2}{s^4+3s^2+1}$ 이다.
+따라서 $Y(S) = \frac{s^2+2}{s^4+3s^2+3} \cdot U(S)$ 이므로 전달함수 $\frac{Y(S)}{U(S)}= \frac{s^2+2}{s^4+3s^2+3}$ 이다.
 
 
 
