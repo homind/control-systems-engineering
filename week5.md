@@ -58,13 +58,66 @@ $$
 
 ----------
 ## State space Equation
-state space equation은 두 종류로 이루어 진다고 볼 수 있다. 그 중 하나는, 위에서 $N$개의 1차 방정식을 통해 행렬 방정식을 만드는 $state different equation$과 $out put equation$이다.
+state space equation은 두 종류로 이루어 진다고 볼 수 있다. 그 중 하나는, 위에서 $N$개의 1차 방정식을 통해 행렬 방정식을 만드는 state different equation이고 다른 하나는 output equation이다.
 
+$$\dot{x}(t) = ax(t) + bu(t)$$ 를 통해 정의해보자.
 
+$$\mathcal{L}\rightarrow sX(s) - x(0) = aX(s) + bU(s)$$
 
+$$\rightarrow (s-a)X(s) = x(0) + bU(s)$$
 
+$$\rightarrow X(s) = \frac{1}{s-a}x(0) + \frac{1}{s-a}bU(s)$$
 
+역라플라스를 진행하면
+$$\mathcal{L}^{-1} \rightarrow x(t) = e^{at}x(0) +\int e^{a(t-\tau)}bu(\tau)d\tau$$
 
-#### 사진 출처
-https://tnwjdyd.tistory.com/13
+이러한 식은 $$x(t) = \Phi (t)\cdot x(0) + \int \Phi(t-\tau)bu(\tau)dt$$ 와 같이 정의되며 "초기값" + "input과 연관된 값"으로 표현하게 되어 물리적으로 중요한 의미를 가진다. 또한 $N$차 미분 방정식을 풀이함에 있어 이와 같은 State transition matrix를 통해 $x(t)$로  표현할 수 있게 된다.
+
+다음 예제를 통해 State Space equation을 이해하자.
+
+![image](https://github.com/homind/control-systems-engineering/assets/101074052/a23fb7e2-0131-489c-9f18-3501db13e677)
+
+서로 다른 질량을 가진 두 물체에 뉴턴의 운동법칙을 적용하면 다음과 같은 2개의 2차미분방정식이 나오게 된다.
+
+$$
+M_1\cdot \ddot{p(t)} = u(t) - b_1[\dot{p(t) - \dot{q(t)}}] - k_1[p(t) - q(t)]
+$$
+
+$$
+M_2\cdot \ddot{q(t)} = b_1[\dot{p(t) - \dot{q(t)}}] + k_1[p(t) - q(t)] - b_2\dot{q(t)} - k_2q(t)
+$$
+
+이 두 식에 상태 변수 $x_1(t), x_2(t), x_3(t), x_4(t)$을 정의하여 식을 풀면.
+
+$$
+x(t)
+&equals;
+\begin{pmatrix}
+x_1(t) \\ 
+x_2(t) \\ 
+x_3(t) \\ 
+x_4(t)
+\end{pmatrix}
+$$
+
+$$
+x(t)
+&equals;
+\begin{bmatrix}
+0 & 0 & 1 & 0 \\ 
+0 & 0 & 0 & 1 \\ 
+-\frac{k_1}{M_1} & \frac{k_1}{M_1} & -\frac{b_1}{M_1} & \frac{b_1}{M_1} \\ 
+\frac{k_1}{M_2} & -\frac{k_1+k_2}{M_1} & \frac{b_1}{M_2} & -\frac{b_1+b_2}{M_2} 
+\end{bmatrix}
+\cdot x(t) + 
+\begin{pmatrix}
+0 \\ 
+0 \\ 
+\frac{1}{M_1} \\ 
+0
+\end{pmatrix}
+\cdot u(t)
+$$
+
+이처럼  1차 미분 행렬 방정식으로 풀이할 수 있게되고 컴퓨터를 좀 더 쉽게 사용할 수 있게된다.
 
