@@ -101,7 +101,7 @@ x_4(t)
 $$
 
 $$
-x(t)
+X(t)
 &equals;
 \begin{bmatrix}
 0 & 0 & 1 & 0 \\ 
