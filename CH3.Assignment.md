@@ -38,6 +38,21 @@ $$
 (C) 상태미분방정식을 구하라.
 B의 두 식을 통해 다음과 같이 세울 수 있다.
 
+$$
+\dot{\tilde{x(t)}} = \begin{bmatrix}
+0 & \frac{-k}{M}\\ 
+\frac{-K}{M} & \frac{-B}{M}
+\end{bmatrix}\begin{bmatrix}
+ x_1(t) \\
+ x_2(t)
+\end{bmatrix}
++
+\begin{bmatrix}
+0 \\
+ \frac{1}{M}
+\end{bmatrix}
+F(t)
+$$
 
 
 ## P3.3
@@ -78,7 +93,7 @@ $$
 $$
 \dot{\tilde{x(t)}} = \begin{bmatrix}
 0 & \frac{1}{L}\\ 
-\frac{-1}{C} & \frac{-}{RC}
+\frac{-1}{C} & \frac{-1}{RC}
 \end{bmatrix}\begin{bmatrix}
  x_1(t) \\
  x_2(t)
