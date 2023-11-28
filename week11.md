@@ -1,6 +1,6 @@
 피드백의 성능
 1. 제어 초기의 성능 (응답이 빠른가? -> 신속성)
-2. 제어의 steday-state 성능( 나의 지령에 얼마나 정확하게 도달하는가, 어떻게 수렴하는가? - > 정확성)
+2. 제어의 steady-state 성능( 나의 지령에 얼마나 정확하게 도달하는가, 어떻게 수렴하는가? - > 정확성)
 
 ----
 ![image](https://github.com/homind/control-systems-engineering/assets/101074052/9b1b6067-d98f-4388-b4a1-4ccf0e268616)
